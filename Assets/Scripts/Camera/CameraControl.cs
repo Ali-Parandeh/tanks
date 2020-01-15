@@ -11,7 +11,8 @@ public class CameraControl : MonoBehaviour
     // Set tanks to be followed by the camera. Hide this variable from Unity UI
     // NOTE: Set to public so that other scripts can set targets variable
     // Transform[] means array of transforms (all of the tanks called Targets)
-    [HideInInspector] public Transform[] m_Targets; 
+    //[HideInInspector]
+    public Transform[] m_Targets;
 
     // Access the camera to change its size variable and change it
     private Camera m_Camera;
